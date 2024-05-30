@@ -14,7 +14,7 @@ class Ball extends PositionComponent with CollisionCallbacks, HasGameRef<BrickBr
 
   Ball({required this.gridSize});
   //Configure Ball Color
-  Paint paint = Paint()..color =  Color.fromARGB(218, 21, 6, 22);
+Paint paint = Paint()..color = Color(0xFFFF0000); // 공 색 : 빨강
 
   @override
   FutureOr<void> onLoad() {
